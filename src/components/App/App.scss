@@ -1,0 +1,47 @@
+@import "../../styles/colors.scss";
+
+.App {
+  .header-container {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    margin-top: 15px;
+    background: $tree;
+
+    .header-title {
+      display: flex;
+      align-items: center;
+      #title-rrg {
+        padding: 10px;
+        font-size: 3em;
+      }
+    }
+    .header-search {
+      position: relative;
+      width: 100vw;
+      display: flex;
+      flex: 650px 1 0;
+      .header-input-search {
+        display: flex;
+        position: relative;
+        #fa-search {
+          position: absolute;
+          color: $randy_moss;
+          left: 25px;
+          top: 10px;
+          bottom: 10px;
+          z-index: 1;
+        }
+      }
+    }
+  }
+  .GoogleMap {
+    opacity: 1;
+  }
+  footer {
+    background: $tree;
+    p {
+      color: $sand;
+    }
+  }
+}

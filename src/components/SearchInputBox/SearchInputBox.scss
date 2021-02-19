@@ -1,0 +1,53 @@
+@import "@reach/combobox/styles.css";
+
+.searched {
+  position: relative;
+  margin: auto;
+  .some-form {
+    display: flex;
+    .cBox {
+      display: flex;
+      .special-box {
+        position: relative;
+        width: 96vw;
+        height: 6vh;
+        transition: width 0.25s;
+        text-indent: 60px;
+        font-size: 2.5em;
+        margin-top: 0px;
+        overflow: hidden;
+        margin-left: 12px;
+        border-radius: 5px;
+        color: black;
+        // background: #6a5d4f;
+      }
+      .special-box::placeholder {
+        color: white;
+      }
+    }
+
+    .reset {
+      position: relative;
+      border: 1px solid transparent;
+    }
+    .reset2 {
+      border-style: hidden;
+    }
+    .reset,
+    .reset2 {
+      background-color: transparent;
+      display: inline-block;
+      vertical-align: middle;
+      cursor: pointer;
+      outline: 0;
+    }
+  }
+}
+
+.special-box-list {
+  font-size: 3.5em;
+}
+
+#mystery {
+  display: none;
+}

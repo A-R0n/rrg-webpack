@@ -1,0 +1,18 @@
+@import "../../styles/colors.scss";
+
+.cancel-btn-holder {
+  display: flex;
+  align-items: center;
+  background: $tree;
+  .cancel-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $water;
+    background: $tree;
+    margin-left: 0px;
+    font-size: 1.75em;
+    font-weight: bold;
+    border: none;
+  }
+}
